@@ -1,0 +1,31 @@
+What is RDBMS?
+RDBMS stands for relational database management system, which is a program that
+allows users to create, update, and manage relational databases.
+RDBMSs are the most popular database systems for organizations. They are reliable,
+easy to implement, and capable of storing and retrieving large amounts of data.
+Relational databases
+Relational databases store data in tables and use Structured Query Language (SQL) to
+organize and search the data.
+How RDBMSs work
+RDBMSs use a relational data model to organize data. For example, a small business
+might use two tables to process orders: one table for customer information, and another
+for customer orders. The two tables are linked by a common ID column, which allows the
+database to create a relationship between them.
+Some examples of RDBMSs
+Some well-known RDBMSs include Oracle, MySQL, PostgreSQL, MariaDB, DB2, and
+Microsoft SQL Server Database.
+The relational database model
+Developed by E.F. Codd from IBM in the 1970s, the relational database model allows
+any table to be related to another table using a common attribute. Instead of using
+hierarchical structures to organize data, Codd proposed a shift to using a data model
+where data is stored, accessed, and related in tables without reorganizing the tables that
+contain them.
+Think of the relational database as a collection of spreadsheet files that help businesses
+organize, manage, and relate data. In the relational database model, each “spreadsheet”
+is a table that stores information, represented as columns (attributes) and rows (records
+or tuples).
+Attributes (columns) specify a data type, and each record (or row) contains the value of
+that specific data type. All tables in a relational database have an attribute known as
+the primary key, which is a unique identifier of a row, and each row can be used to create
+a relationship between different tables using a foreign key—a reference to a primary key
+of another existing table.
